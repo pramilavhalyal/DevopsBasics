@@ -47,5 +47,5 @@ steps:
   #  pollingTimeoutSec: '300'
 - task: CmdLine@2
   inputs:
-    script: 'Invoke-WebRequest -URI http://localhost:9000/api/server/version'
+    script: 'Invoke-WebRequest -URI https://localhost:9000/api/server/version'
 
